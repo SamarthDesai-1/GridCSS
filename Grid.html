@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.css">
+    <style>
+        .container {
+            margin-top: 20px;
+        }
+        img {
+            border-radius: 10px;
+            width: 253px;
+        }
+        #ptag {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        p {
+            margin-left: 10px;
+            margin-top: 10px;
+            margin-right: 10px;
+        }
+        .gridbox:hover {
+            box-shadow: 5px 10px 50px aquamarine;
+            opacity: 0.95;
+            transition-duration: 2s;
+            border-radius: 10px;
+        }
+        #butt {
+            width: 135px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="row">
+            <div class="col-3">
+                <div class="gridbox">
+                    <img src="food1.jfif" alt="Error">
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio illo saepe quae cumque sint sunt similique explicabo sed, eveniet nulla! <br>
+                        Price : $40.00  <br>
+                        <input type="button" value="Order Now" class="btn btn-primary" id="butt">
+                    </p>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="gridbox">
+                    <img src="food1.jfif" alt="Error">
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio illo saepe quae cumque sint sunt similique explicabo sed, eveniet nulla!  <br>
+                        Price : $40.00 <br>
+                        <input type="button" value="Order Now" class="btn btn-primary" id="butt">
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
